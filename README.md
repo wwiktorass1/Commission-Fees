@@ -7,6 +7,7 @@ Enter program: "node script.js input.json"
 
 
 ##Example Data
+
 ➜  cat input.json
 [
     { "date": "2016-01-05", "user_id": 1, "user_type": "natural", "type": "cash_in", "operation": { "amount": 200.00, "currency": "EUR" } },
@@ -19,6 +20,7 @@ Enter program: "node script.js input.json"
     { "date": "2016-01-10", "user_id": 3, "user_type": "natural", "type": "cash_out", "operation": { "amount": 1000.00, "currency": "EUR" } },
     { "date": "2016-02-15", "user_id": 1, "user_type": "natural", "type": "cash_out", "operation": { "amount": 300.00, "currency": "EUR" } },
 ]
+
 
 ➜  script app.js input.json
 0.06
