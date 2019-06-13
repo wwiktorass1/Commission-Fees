@@ -3,12 +3,12 @@ Bank users can go to a branch to cash in and/or cash out from Bank account. Ther
 
 Open Visual studio code program, go to folder with project. Install request: "npm install request". input.json shoud be in same folder.
 
-Enter program: "node feesCalculator.js input.json"
+Enter command: node feesCalculator.js <file_name>.json
 
 
 ## Example Data
 
-➜  cat input.json
+➜  cat input.json<br />
 [
     { "date": "2016-01-05", "user_id": 1, "user_type": "natural", "type": "cash_in", "operation": { "amount": 200.00, "currency": "EUR" } },<br />
     { "date": "2016-01-06", "user_id": 2, "user_type": "juridical", "type": "cash_out", "operation": { "amount": 300.00, "currency": "EUR" } },
