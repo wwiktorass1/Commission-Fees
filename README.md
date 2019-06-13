@@ -6,7 +6,7 @@ Open Visual studio code program, go to folder with project. Install request: "np
 Enter command: node feesCalculator.js <file_name>.json
 
 
-## Example Data
+### Example Data
 
 ➜  cat input.json<br />
 [
